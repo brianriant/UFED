@@ -38,7 +38,7 @@ By the end of this module, you will:
 
 ---
 
-## 1. Getting Started
+## Getting Started
 
 ### Installation
 
@@ -91,7 +91,7 @@ my-app/
 
 ---
 
-## 2. Routing
+## Routing
 
 ### App Router Basics
 
@@ -195,7 +195,7 @@ export default function DashboardLayout({ children }) {
 
 ---
 
-## 3. Data Fetching
+## Data Fetching
 
 ### Server Components (Default!)
 
@@ -280,7 +280,7 @@ export default function ClientComponent() {
 
 ---
 
-## 4. API Routes
+## API Routes
 
 ### Route Handlers
 
@@ -349,7 +349,7 @@ export async function GET(request: Request) {
 
 ---
 
-## 5. Styling
+## Styling
 
 ### CSS Modules
 
@@ -396,7 +396,7 @@ export default function RootLayout({ children }) {
 
 ---
 
-## 6. Optimization
+## Optimization
 
 ### Images
 
@@ -464,7 +464,7 @@ export default function Page() {
 
 ---
 
-## 7. Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -493,7 +493,7 @@ const apiKey = process.env.API_KEY;
 
 ---
 
-## 8. Projects
+## Projects
 
 ### ⭐ Project 1: Blog Platform
 

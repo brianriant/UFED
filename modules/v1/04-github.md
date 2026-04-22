@@ -27,17 +27,17 @@ By the end of this module, you will:
 
 ## Table of Contents
 
-1. [GitHub Basics](#basics)
-2. [Repository Management](#repository)
+1. [GitHub Basics](#github-basics)
+2. [Repository Management](#repository-management)
 3. [Collaboration](#collaboration)
 4. [Pull Requests](#pull-requests)
-5. [GitHub Actions](#actions)
-6. [Project Management](#projects)
+5. [GitHub Actions](#github-actions)
+6. [Project Management](#project-management)
 7. [Exercises](#exercises)
 
 ---
 
-## 1. GitHub Basics
+## GitHub Basics
 
 ### Creating an Account
 
@@ -89,7 +89,7 @@ By the end of this module, you will:
 
 ---
 
-## 2. Repository Management
+## Repository Management
 
 ### Creating a Repository
 
@@ -156,7 +156,7 @@ MIT
 
 ---
 
-## 3. Collaboration
+## Collaboration
 
 ### Inviting Collaborators
 
@@ -214,7 +214,7 @@ git rebase upstream/main
 
 ---
 
-## 4. Pull Requests
+## Pull Requests
 
 ### Creating a Pull Request
 
@@ -300,7 +300,7 @@ Question: Why did you choose this approach?
 
 ---
 
-## 5. GitHub Actions
+## GitHub Actions
 
 ### Why CI/CD?
 
@@ -396,7 +396,7 @@ jobs:
 
 ---
 
-## 6. Project Management
+## Project Management
 
 ### Issues
 
@@ -456,7 +456,7 @@ If applicable.
 
 ---
 
-## 7. Exercises
+## Exercises
 
 ### ⭐ Exercise 1: Repository Setup
 
@@ -576,8 +576,8 @@ gh issue create --title "Bug" --body "Description"
 
 ## Next Module
 
-[Module 5: JavaScript Basics →](../modules/05-javascript.md)
+[Module 5: JavaScript Basics →](./05-javascript.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

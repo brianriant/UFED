@@ -1,4 +1,4 @@
-# UFED(Understanding For Every Developer) - Ultimate Front-End Development Curriculum
+# UFED(Understanding For Every Developer) - The Ultimate Development Curriculum
 
 > A comprehensive learning path for aspiring developers
 
@@ -48,10 +48,13 @@ UFED is designed to take you from zero to full-stack developer. Each module buil
 
 ## Quick Start
 
-1. **Fork this repository**
-2. **Start with Module 1: HTML**
-3. **Complete each module sequentially**
-4. **Build the final capstone project**
+1. **Fork this repository from your github**
+1. **Clone the Forked repo**
+1. **Create your branch** - e.g. `git checkout -b riant-patch`
+1. **Create a folder in the root directory with your name**
+1. **Start with Module 1: HTML**
+1. **Complete each module sequentially**
+1. **Build the final capstone project**
 
 ## Module Structure
 

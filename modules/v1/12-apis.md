@@ -27,8 +27,8 @@ By the end of this module, you will:
 
 ## Table of Contents
 
-1. [REST Principles](#principles)
-2. [API Design](#design)
+1. [REST Principles](#rest-principles)
+2. [API Design](#api-design)
 3. [Best Practices](#best-practices)
 4. [Documentation](#documentation)
 5. [Testing](#testing)
@@ -37,7 +37,7 @@ By the end of this module, you will:
 
 ---
 
-## 1. REST Principles
+## REST Principles
 
 ### Core Principles
 
@@ -89,7 +89,7 @@ Single Post             →      GET /posts/:id
 
 ---
 
-## 2. API Design
+## API Design
 
 ### HTTP Methods
 
@@ -182,7 +182,7 @@ Single Post             →      GET /posts/:id
 
 ---
 
-## 3. Best Practices
+## Best Practices
 
 ### URL Design
 
@@ -251,7 +251,7 @@ GET /users?cursor=abc123&limit=10
 
 ---
 
-## 4. Documentation
+## Documentation
 
 ### OpenAPI/Swagger Example
 
@@ -307,7 +307,7 @@ paths:
 
 ---
 
-## 5. Testing
+## Testing
 
 ### Unit Tests with Jest
 
@@ -353,7 +353,7 @@ describe("User API", () => {
 
 ---
 
-## 6. Security
+## Security
 
 ### Essential Security Practices
 
@@ -424,7 +424,7 @@ app.post("/api/users", (req, res, next) => {
 
 ---
 
-## 7. Projects
+## Projects
 
 ### ⭐ Project 1: E-commerce API
 
@@ -529,5 +529,5 @@ Combine everything you've learned into a full-stack application!
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_
 _Happy Coding! 🚀_

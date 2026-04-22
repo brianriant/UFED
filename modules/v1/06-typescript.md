@@ -27,10 +27,10 @@ By the end of this module, you will:
 
 ## Table of Contents
 
-1. [Introduction to TypeScript](#introduction)
+1. [Introduction to TypeScript](#introduction-to-typescript)
 2. [Basic Types](#basic-types)
-3. [Type Inference](#inference)
-4. [Interfaces and Types](#interfaces)
+3. [Type Inference](#type-inference)
+4. [Interfaces and Types](#interfaces-and-types)
 5. [Functions](#functions)
 6. [Classes](#classes)
 7. [Generics](#generics)
@@ -40,7 +40,7 @@ By the end of this module, you will:
 
 ---
 
-## 1. Introduction to TypeScript
+## Introduction to TypeScript
 
 ### Why TypeScript?
 
@@ -121,7 +121,7 @@ tsc --watch file.ts
 
 ---
 
-## 2. Basic Types
+## Basic Types
 
 ### Primitive Types
 
@@ -215,7 +215,7 @@ let length2: number = (<string>value).length;
 
 ---
 
-## 3. Type Inference
+## Type Inference
 
 ### TypeScript Inference
 
@@ -254,7 +254,7 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 
 ---
 
-## 4. Interfaces and Types
+## Interfaces and Types
 
 ### Interfaces
 
@@ -336,7 +336,7 @@ type Callback = () => void;
 
 ---
 
-## 5. Functions
+## Functions
 
 ### Function Types
 
@@ -385,7 +385,7 @@ function getItem(id: string | number): Item | undefined {
 
 ---
 
-## 6. Classes
+## Classes
 
 ### Class Syntax
 
@@ -501,7 +501,7 @@ class Circle extends Shape {
 
 ---
 
-## 7. Generics
+## Generics
 
 ### Generic Functions
 
@@ -576,7 +576,7 @@ logLength({ length: 5 }); // OK - object has length
 
 ---
 
-## 8. Utility Types
+## Utility Types
 
 ### Common Utilities
 
@@ -651,7 +651,7 @@ type UserInstance = InstanceType<typeof User>;
 
 ---
 
-## 9. Configuration
+## Configuration
 
 ### Compiler Options
 
@@ -693,7 +693,7 @@ type UserInstance = InstanceType<typeof User>;
 
 ---
 
-## 10. Projects
+## Projects
 
 ### ⭐ Project 1: Type-Safe API Client
 
@@ -778,8 +778,8 @@ Create a store with:
 
 ## Next Module
 
-[Module 7: React →](../modules/07-react.md)
+[Module 7: React →](./07-react.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

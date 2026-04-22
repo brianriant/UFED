@@ -31,16 +31,16 @@ By the end of this module, you will:
 2. [Selectors and Specificity](#selectors)
 3. [The Box Model](#box-model)
 4. [Typography](#typography)
-5. [Colors and Backgrounds](#colors)
-6. [Flexbox Layout](#flexbox)
-7. [CSS Grid](#grid)
-8. [Responsive Design](#responsive)
-9. [Transforms and Animations](#animations)
+5. [Colors and Backgrounds](#colors-and-backgrounds)
+6. [Flexbox Layout](#flexbox-layout)
+7. [CSS Grid](#css-grid)
+8. [Responsive Design](#responsive-design)
+9. [Transforms and Animations](#transforms-and-animations)
 10. [Projects](#projects)
 
 ---
 
-## 1. Introduction to CSS
+## Introduction
 
 ### Ways to Add CSS
 
@@ -78,7 +78,7 @@ h1 {
 
 ---
 
-## 2. Selectors and Specificity
+## Selectors
 
 ### Basic Selectors
 
@@ -198,7 +198,7 @@ div.highlight {
 
 ---
 
-## 3. The Box Model
+## Box Model
 
 ### Box Model Components
 
@@ -265,7 +265,7 @@ box-sizing: border-box;
 
 ---
 
-## 4. Typography
+## Typography
 
 ### Font Properties
 
@@ -333,7 +333,7 @@ body {
 
 ---
 
-## 5. Colors and Backgrounds
+## Colors and Backgrounds
 
 ### Color Values
 
@@ -423,7 +423,7 @@ body {
 
 ---
 
-## 6. Flexbox Layout
+## Flexbox Layout
 
 ### Container Properties
 
@@ -542,7 +542,7 @@ body {
 
 ---
 
-## 7. CSS Grid
+## CSS Grid
 
 ### Container Properties
 
@@ -643,7 +643,7 @@ body {
 
 ---
 
-## 8. Responsive Design
+## Responsive Design
 
 ### Media Queries
 
@@ -726,7 +726,7 @@ img {
 
 ---
 
-## 9. Transforms and Animations
+## Transforms and Animations
 
 ### Transforms
 
@@ -803,7 +803,7 @@ img {
 
 ---
 
-## 10. Projects
+## Projects
 
 ### 🚀 Project 1: Landing Page
 
@@ -897,8 +897,8 @@ Create a card with:
 
 ## Next Module
 
-[Module 3: Git Basics →](../modules/03-git.md)
+[Module 3: Git Basics →](./03-git.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

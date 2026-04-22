@@ -32,13 +32,13 @@ By the end of this module, you will:
 3. [Middleware](#middleware)
 4. [Request/Response](#request-response)
 5. [Error Handling](#error-handling)
-6. [Database Integration](#database)
+6. [Database Integration](#database-integration)
 7. [Authentication](#authentication)
 8. [Projects](#projects)
 
 ---
 
-## 1. Getting Started
+## Getting Started
 
 ### Installation
 
@@ -82,7 +82,7 @@ app.listen(PORT, () => {
 >
 > <details>
 
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **A) The server instance** - You can store it in a variable to use later (e.g., for websocket)!
 > </details>
 
@@ -99,7 +99,7 @@ app.listen(PORT, () => {
 
 ---
 
-## 2. Routing
+## Routing
 
 ### Basic Routes
 
@@ -184,15 +184,14 @@ app.get("/api/search", (req, res) => {
 > - [ ] B) Params are in URL path (/users/:id), query is after ? (q=search)
 > - [ ] C) Query params are required
 >
-> <<details>
-
-<summary>Answer</summary>
+> <details>
+> <summary>Answer</summary>
 > **B) Route params are part of the URL path, query params come after ?** - Example: `/api/users/123?page=1` - `123` is a param, `page` is a query.
 > </details>
 
 ---
 
-## 3. Middleware
+## Middleware
 
 ### What is Middleware?
 
@@ -264,14 +263,11 @@ app.post("/api/users", authenticate, validateUser, (req, res) => {
 > - [ ] C) Retries the request
 >
 > <details>
-
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **B) Passes control to the next middleware/route** - Without calling next(), the request hangs!
 > </details>
 
----
-
-## 4. Request/Response
+## Request/Response
 
 ### Request Object
 
@@ -318,7 +314,7 @@ app.get("/api/test", (req, res) => {
 
 ---
 
-## 5. Error Handling
+## Error Handling
 
 ### Sync Error Handler
 
@@ -378,7 +374,7 @@ app.get("/api/test", (req, res, next) => {
 
 ---
 
-## 6. Database Integration
+## Database Integration
 
 ### MongoDB with Mongoose
 
@@ -432,14 +428,11 @@ app.get("/api/users/:id", async (req, res) => {
 > - [ ] C) It works with SQL
 >
 > <details>
-
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **B) Schema validation and easier queries** - Mongoose provides schema definitions, validation, and a cleaner API!
 > </details>
 
----
-
-## 7. Authentication
+## Authentication
 
 ### JWT Authentication
 
@@ -500,7 +493,7 @@ app.post("/api/login", async (req, res) => {
 
 ---
 
-## 8. Projects
+## Projects
 
 ### ⭐ Project 1: RESTful Todo API
 
@@ -582,8 +575,8 @@ Build a blog backend:
 
 ## Next Module
 
-[Module 12: REST APIs →](../modules/12-apis.md)
+[Module 12: REST APIs →](./12-apis.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

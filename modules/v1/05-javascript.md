@@ -28,21 +28,21 @@ By the end of this module, you will:
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Variables and Data Types](#variables)
+2. [Variables and Data Types](#variables-and-data-types)
 3. [Operators](#operators)
 4. [Control Flow](#control-flow)
 5. [Functions](#functions)
 6. [Arrays](#arrays)
 7. [Objects](#objects)
-8. [DOM Manipulation](#dom)
+8. [DOM Manipulation](#dom-manipulation)
 9. [Events](#events)
-10. [Async JavaScript](#async)
-11. [Modern ES6+](#modern)
+10. [Async JavaScript](#async-javascript)
+11. [Modern ES6+](#modern-es6)
 12. [Projects](#projects)
 
 ---
 
-## 1. Introduction
+## Introduction
 
 ### Where JavaScript Runs
 
@@ -80,7 +80,7 @@ console.log("Hello from browser!");
 
 ---
 
-## 2. Variables and Data Types
+## Variables and Data Types
 
 ### Variables
 
@@ -186,7 +186,7 @@ const greeting = `Hello, ${name}!`; // "Hello, John!"
 
 ---
 
-## 3. Operators
+## Operators
 
 ### Arithmetic
 
@@ -259,7 +259,7 @@ undefined ?? "default"; // "default"
 
 ---
 
-## 4. Control Flow
+## Control Flow
 
 ### If/Else
 
@@ -353,7 +353,7 @@ for (const key in obj) {
 
 ---
 
-## 5. Functions
+## Functions
 
 ### Function Declaration
 
@@ -430,7 +430,7 @@ increment(); // 2
 
 ---
 
-## 6. Arrays
+## Arrays
 
 ### Creating Arrays
 
@@ -519,7 +519,7 @@ const merged = [...arr1, ...arr2];
 
 ---
 
-## 7. Objects
+## Objects
 
 ### Creating Objects
 
@@ -592,7 +592,7 @@ const deepClone = structuredClone(obj);
 
 ---
 
-## 8. DOM Manipulation
+## DOM Manipulation
 
 ### Selecting Elements
 
@@ -656,7 +656,7 @@ parent.removeChild(el);
 
 ---
 
-## 9. Events
+## Events
 
 ### Event Listeners
 
@@ -738,7 +738,7 @@ btn.addEventListener("click", (e) => {
 
 ---
 
-## 10. Async JavaScript
+## Async JavaScript
 
 ### Callbacks (Old Way)
 
@@ -827,7 +827,7 @@ fetch("https://api.example.com/users", {
 
 ---
 
-## 11. Modern ES6+
+## Modern ES6+
 
 ### Arrow Functions
 
@@ -944,7 +944,7 @@ console.log(multiply(2, 3)); // 6
 
 ---
 
-## 12. Projects
+## Projects
 
 ### ⭐ Project 1: Counter App
 
@@ -1052,8 +1052,8 @@ Create a modal with:
 
 ## Next Module
 
-[Module 6: TypeScript →](../modules/06-typescript.md)
+[Module 6: TypeScript →](./06-typescript.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

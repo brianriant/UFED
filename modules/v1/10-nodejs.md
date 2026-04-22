@@ -38,7 +38,7 @@ By the end of this module, you will:
 
 ---
 
-## 1. Getting Started
+## Getting Started
 
 ### Installation
 
@@ -97,7 +97,7 @@ setInterval(() => console.log("Every second"), 1000);
 
 ---
 
-## 2. Modules
+## Modules
 
 ### CommonJS (Node.js default)
 
@@ -150,7 +150,7 @@ const crypto = require("crypto");
 
 ---
 
-## 3. File System
+## File System
 
 ### Reading Files
 
@@ -236,7 +236,7 @@ console.log(stats.mtime);
 
 ---
 
-## 4. Events
+## Events
 
 ### EventEmitter
 
@@ -285,7 +285,7 @@ process.on("unhandledRejection", (reason, promise) => {
 
 ---
 
-## 5. Streams
+## Streams
 
 ### Types of Streams
 
@@ -355,7 +355,7 @@ const server = http.createServer((req, res) => {
 
 ---
 
-## 6. HTTP Server
+## HTTP Server
 
 ### Basic Server
 
@@ -445,7 +445,7 @@ server.listen(3000);
 
 ---
 
-## 7. NPM
+## NPM
 
 ### Package.json
 
@@ -505,7 +505,7 @@ npm list --depth=0
 >
 > <details>
 
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **C) save-dev is for dev tools, save is for runtime** - devDependencies are not installed in production!
 > </details>
 
@@ -521,7 +521,7 @@ npx create-react-app my-app
 
 ---
 
-## 8. Projects
+## Projects
 
 ### ⭐ Project 1: File Manager CLI
 
@@ -604,8 +604,8 @@ Build an API with:
 
 ## Next Module
 
-[Module 11: Express.js →](../modules/11-express.md)
+[Module 11: Express.js →](./11-express.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

@@ -38,7 +38,7 @@ By the end of this module, you will:
 
 ---
 
-## 1. Introduction to HTML
+## Introduction
 
 ### What is HTML?
 
@@ -78,7 +78,7 @@ HTML is a markup language that defines the structure of web content. It uses **t
 
 ---
 
-## 2. Document Structure
+## Structure
 
 ### The DOCTYPE Declaration
 
@@ -144,7 +144,7 @@ Contains all visible content.
 
 ---
 
-## 3. Text Elements
+## Text Elements
 
 ### Headings
 
@@ -160,7 +160,7 @@ HTML provides 6 levels of headings:
 ```
 
 > [!WARNING]
-> ⚠️ **Important:** Only use ONE `<h1>` per page! Use `<h2>`-`<h6>` for subheadings in a logical hierarchy.
+> ⚠️ **Important:** Prefer one primary `<h1>` per page, then use `<h2>`-`<h6>` in a logical hierarchy.
 
 ### Paragraphs and Text Formatting
 
@@ -171,7 +171,7 @@ HTML provides 6 levels of headings:
 <strong>Bold - Important</strong>
 <b>Bold - Stylistic</b>
 <em>Italic - Emphasized</em>
-<i>Italic - Stylistic</em>
+<i>Italic - Stylistic</i>
 <mark>Highlighted text</mark>
 <small>Small text</small>
 <sup>Superscript</sup>
@@ -192,7 +192,7 @@ HTML provides 6 levels of headings:
 
 ---
 
-## 4. Links and Images
+## Links and Images
 
 ### Links
 
@@ -207,11 +207,11 @@ HTML provides 6 levels of headings:
 <a href="#section-id">Jump to Section</a>
 
 <!-- Open in new tab -->
-<a href="https://example.com" target="_blank" rel="noopener">New Tab</a>
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">New Tab</a>
 ```
 
 > [!WARNING]
-> ⚠️ Always use `rel="noopener"` when using `target="_blank"` for security!
+> ⚠️ Always use `rel="noopener noreferrer"` when using `target="_blank"` for security!
 
 > [!QUIZ]
 >
@@ -253,7 +253,7 @@ HTML provides 6 levels of headings:
 
 ---
 
-## 5. Lists and Tables
+## Lists and Tables
 
 ### Unordered Lists
 
@@ -314,7 +314,7 @@ HTML provides 6 levels of headings:
 
 ---
 
-## 6. Forms
+## Forms
 
 ### Basic Form Structure
 
@@ -390,7 +390,7 @@ HTML provides 6 levels of headings:
 
 ---
 
-## 7. Semantic HTML
+## Semantic HTML
 
 ### Why Semantic HTML?
 
@@ -443,7 +443,7 @@ HTML provides 6 levels of headings:
 
 ---
 
-## 8. Exercises
+## Exercises
 
 ### ⭐ Exercise 1: Basic Page
 
@@ -494,7 +494,7 @@ Create a class schedule table with:
 
 ---
 
-## 9. Projects
+## Projects
 
 ### 🚀 Project 1: Personal Portfolio Page (Mini)
 
@@ -576,8 +576,8 @@ Create a blog post layout with:
 
 ## Next Module
 
-[Module 2: CSS Fundamentals →](../modules/02-css.md)
+[Module 2: CSS Fundamentals →](./02-css.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

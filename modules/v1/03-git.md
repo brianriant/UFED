@@ -27,17 +27,17 @@ By the end of this module, you will:
 
 ## Table of Contents
 
-1. [Introduction to Version Control](#introduction)
-2. [Setting Up Git](#setup)
+1. [Introduction to Version Control](#introduction-to-version-control)
+2. [Setting Up Git](#setting-up-git)
 3. [Basic Commands](#basic-commands)
-4. [Branching and Merging](#branching)
-5. [Remote Repositories](#remote)
-6. [Advanced Commands](#advanced)
+4. [Branching and Merging](#branching-and-merging)
+5. [Remote Repositories](#remote-repositories)
+6. [Advanced Commands](#advanced-commands)
 7. [Exercises](#exercises)
 
 ---
 
-## 1. Introduction to Version Control
+## Introduction to Version Control
 
 ### What is Git?
 
@@ -78,7 +78,7 @@ Git tracks changes to your code over time. It allows you to:
 
 ---
 
-## 2. Setting Up Git
+## Setting Up Git
 
 ### Installation
 
@@ -121,7 +121,7 @@ git config --list
 
 ---
 
-## 3. Basic Commands
+## Basic Commands
 
 ### Starting a Repository
 
@@ -233,7 +233,7 @@ Thumbs.db
 
 ---
 
-## 4. Branching and Merging
+## Branching and Merging
 
 ### Branch Commands
 
@@ -327,7 +327,7 @@ git mergetool
 
 ---
 
-## 5. Remote Repositories
+## Remote Repositories
 
 ### Remote Commands
 
@@ -405,7 +405,7 @@ git push --force origin main
 
 ---
 
-## 6. Advanced Commands
+## Advanced Commands
 
 ### Stashing
 
@@ -505,7 +505,7 @@ git push origin --delete v1.0.0
 
 ---
 
-## 7. Exercises
+## Exercises
 
 ### ⭐ Exercise 1: Git Workflow
 
@@ -622,8 +622,8 @@ main → short-lived branches → direct commit
 
 ## Next Module
 
-[Module 4: GitHub →](../modules/04-github.md)
+[Module 4: GitHub →](./04-github.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_

@@ -30,14 +30,14 @@ By the end of this module, you will:
 1. [Getting Started](#getting-started)
 2. [Utility Classes](#utility-classes)
 3. [Layout](#layout)
-4. [Responsive Design](#responsive)
+4. [Responsive Design](#responsive-design)
 5. [Customization](#customization)
 6. [Components](#components)
 7. [Projects](#projects)
 
 ---
 
-## 1. Getting Started
+## Getting Started
 
 ### Installation
 
@@ -62,7 +62,7 @@ npm install
 >
 > <details>
 
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **B) Utility-first, compose in HTML** - You build designs by combining utility classes directly in your JSX/HTML!
 > </details>
 
@@ -91,7 +91,7 @@ export default {
 
 ---
 
-## 2. Utility Classes
+## Utility Classes
 
 ### Spacing
 
@@ -203,7 +203,7 @@ export default {
 
 ---
 
-## 3. Layout
+## Layout
 
 ### Flexbox
 
@@ -249,12 +249,9 @@ export default {
 > - [ ] C) center
 >
 > <details>
-
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **B) justify-center items-center** - justify-center for horizontal, items-center for vertical!
 > </details>
-
-### CSS Grid
 
 ```html
 <!-- Display grid -->
@@ -292,7 +289,7 @@ export default {
 
 ---
 
-## 4. Responsive Design
+## Responsive Design
 
 ### Breakpoints
 
@@ -322,12 +319,9 @@ export default {
 > - [ ] C) Apply styles on all screens
 >
 > <details>
-
-<summary>Answer</summary>
+> <summary>Answer</summary>
 > **B) Apply styles on medium screens (768px+)** - The prefix applies at that breakpoint and above!
 > </details>
-
-### Responsive Patterns
 
 ```html
 <!-- Stack on mobile, row on desktop -->
@@ -342,7 +336,7 @@ export default {
 
 ---
 
-## 5. Customization
+## Customization
 
 ### Theme Extension
 
@@ -408,7 +402,7 @@ export default {
 
 ---
 
-## 6. Components
+## Components
 
 ### Button Component
 
@@ -516,7 +510,7 @@ export function Input({ label, error, className, ...props }: InputProps) {
 
 ---
 
-## 7. Projects
+## Projects
 
 ### ⭐ Project 1: Landing Page
 
@@ -604,8 +598,8 @@ Build reusable components:
 
 ## Next Module
 
-[Module 10: Node.js →](../modules/10-nodejs.md)
+[Module 10: Node.js →](./10-nodejs.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - UUnderstanding For Every Developer_

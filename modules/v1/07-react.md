@@ -30,16 +30,16 @@ By the end of this module, you will:
 1. [Getting Started](#getting-started)
 2. [Components](#components)
 3. [JSX](#jsx)
-4. [Props and State](#props-state)
+4. [Props and State](#props-and-state)
 5. [Hooks](#hooks)
-6. [React Router](#router)
-7. [Context API](#context)
+6. [React Router](#react-router)
+7. [Context API](#context-api)
 8. [Best Practices](#best-practices)
 9. [Projects](#projects)
 
 ---
 
-## 1. Getting Started
+## Getting Started
 
 ### Installation
 
@@ -92,7 +92,7 @@ my-app/
 
 ---
 
-## 2. Components
+## Components
 
 ### Function Components (Recommended!)
 
@@ -150,7 +150,7 @@ function App() {
 
 ---
 
-## 3. JSX
+## JSX
 
 ### JSX Rules
 
@@ -242,7 +242,7 @@ import "./App.css";
 
 ---
 
-## 4. Props and State
+## Props and State
 
 ### Props (Read-Only Data)
 
@@ -331,7 +331,7 @@ function Form() {
 
 ---
 
-## 5. Hooks
+## Hooks
 
 ### useState
 
@@ -494,7 +494,7 @@ function App() {
 
 ---
 
-## 6. React Router
+## React Router
 
 ### Installation
 
@@ -557,7 +557,7 @@ function User() {
 
 ---
 
-## 7. Context API (Review)
+## Context API
 
 ### Creating Context (Full Example)
 
@@ -602,7 +602,7 @@ function Dashboard() {
 
 ---
 
-## 8. Best Practices
+## Best Practices
 
 ### Component Guidelines
 
@@ -672,7 +672,7 @@ src/
 
 ---
 
-## 9. Projects
+## Projects
 
 ### ⭐ Project 1: Todo App
 
@@ -761,8 +761,8 @@ Build a product page:
 
 ## Next Module
 
-[Module 8: Next.js →](../modules/08-nextjs.md)
+[Module 8: Next.js →](./08-nextjs.md)
 
 ---
 
-_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Ultimate Front-End Development_
+_Built with ❤️ by [Brian Riant](https://brianriant.vercel.app) - Understanding For Every Developer_
