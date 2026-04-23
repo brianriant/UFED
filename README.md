@@ -49,7 +49,7 @@ UFED is designed to take you from zero to full-stack developer. Each module buil
 ## Quick Start
 
 1. **Fork this repository from your github**
-1. **Clone the Forked repo**
+1. **Clone the Forked repo** `git clone https://github.com/brianriant/UFED.git`
 1. **Create your branch** - e.g. `git checkout -b riant-patch`
 1. **Create a folder in the root directory with your name**
 1. **Start with Module 1: HTML**
