@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The City View</title>
+    <script>
+    function goDark() {
+      // We target the 'body' to change the whole background
+      document.getElementById("myPage").style.backgroundColor = "#222";
+      document.getElementById("myPage").style.color = "white";
+    }
+
+    function goLight() {
+      document.getElementById("myPage").style.backgroundColor = "white";
+      document.getElementById("myPage").style.color = "black";
+    }
+  </script>
+
+    <style>
+ body {
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+
+}
+#background {
+    background-image: url(vitalik-nqyK3NuwC6E-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: right;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+}
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 2px 5px;
+    color: tomato;
+    text-decoration: none;
+
+}
+.nav-links ul li::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.PPR  {
+    max-width: 60%;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: traslate(-50% -50%);
+}
+h1 {
+    color: rgba(0, 20, 128, 0.9);
+    font-size: 40px;
+}
+.PPR p {
+    font-size: 30px;
+    margin: 10px 0 10px;
+    color: forestgreen;
+}
+.PPR a {
+    border: white solid 1px;
+    padding: 0px 80px;
+    font-size: 30px;
+    text-align: right;
+    margin: 15px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+.hero-btn:hover {
+    border: #ff3309;
+    background: #ff3309;
+    transition: 0.5s;   
+}
+.COURSE {
+    padding-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+    /*-----course----*/
+.COURSE p {
+    font-size: 27px;
+}
+.maps {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.Course-outline {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    margin: 5%;
+    border-radius: 10px;
+    border: 5px 2px;
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.Course-outline h3 {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.Course-outline p {
+    text-align: center;
+    margin: auto;
+}
+.Course-outline:hover {
+    box-shadow: 0 0 20px 0px black;
+}
+@media (max-width: 700px) {
+    .maps {
+        flex-direction: column}
+}
+
+    /*-----Campus----*/
+.Campus {
+    margin-top: 10px; 
+    text-align: center;
+    margin: auto; 
+}
+.Campus h1 {
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.Campus h1:hover {
+    text-shadow: 0 0 20px 2px black;
+}
+.Campus p {
+    text-align: center;
+    text-decoration: none;
+    font-size: 29px;
+}
+.lILA {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    max-width: 0%;
+    max-height: 0%;
+
+
+}
+.ul-link2 {
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: #fff3f3;
+    text-decoration-style: none;
+}
+.ul-link2 p {
+    text-decoration: underline;
+    font-size: larger;
+
+}
+.our-school {
+    display: flex;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.images {
+    border: 20px 20px;
+    border-radius: 5px;
+    border: #fff3f3;
+    background-color: #fff;
+
+}
+
+.hall {
+    text-decoration: underline;
+    margin-left: 20px;
+
+
+}
+.lILA {
+    display: flex;
+    justify-content: space-between;
+}
+.lILA.images {
+    border: 200px 150px;
+    max-width: 2%;
+    max-height: 2%;
+    border-radius: 15px;
+
+}
+.display {
+    text-align: center;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.HHA{
+    text-decoration: none;
+    margin-top: 15px;
+    border: 5px 10px;
+    padding: 5px 3px;
+    border-radius: 10px;
+    background-color: #fff3f3;
+    padding-left: 5%;
+    flex-basis: 50%;
+    box-sizing: border-box;
+
+}
+.HHA h1 {
+    text-decoration: underline;
+}
+.HHA p {
+    text-align: center;
+}
+.HHA span {
+    color: black;
+}
+.JK {
+    border: black;
+    border: 4px 5px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: aqua;
+    transition: 0.5s;
+    max-width: 500px;
+    max-height: 500px;
+    transition: 1.5s;
+}
+.JK:hover {
+    box-sizing: 0 0 20px 0px black;
+}
+.HHA:hover {
+    box-shadow: 0px 1px 20px 0px black;
+}
+.JK p {
+    background-color: rgba(0, 0, 126, 0.3);
+    border: 2px 3px;
+    border-radius: 2px;
+}
+
+.facilites {
+    display: flex;
+    flex-grow: 30%;
+    margin: 10px;
+}
+.pk {
+    max-width: 500px;
+    max-height: 900px;
+}
+.Campus-col{
+    flex-basis: 32%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.Campus-col img {
+    width: 100%;
+}
+.Campus-col img:hover {
+    background: rgba(0, 0, 126, 0.3);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 126, 0.3);
+    
+}
+.love {
+    background: rgba(0, 0, 126, 0.3);
+    width: 10%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+    </style>
+</head>
+   <!----background---->
+<section id="background">
+    <nav>
+        <div class="nav-links">
+            <ul>
+                
+                <li><a href="">HOME</a></li>
+                <li><a href="">TUTORIAL</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="PPR">
+        <h1>Welcome The Yale University Of Technology</h1>
+        <p>Here we learn how to make the world a better place for everyone through the use of technological knowledge.<br>It is a place where we learn to work as a team and appreciate the uniqueness of everyone in the society<br>Having you here makes this dream a reality.</p>
+        <p>Thank you for Choosing Yale</p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+
+    </div>
+</section>
+
+   <!------course------>
+    <section class="COURSE">
+        <h1>These are the Courses We Offer This Year At Yale</h1>
+        <p>Welcome to the world of Engineering and Technology</p>
+    
+      <div class="maps">
+        <div class="Course-outline">
+            <h3>Diploma</h3>
+            <p>These are the Diploma courses we Offer In the fields of Egineering and In the Tech Space<br>1. Mechanical Engineering.<br>2. Civil Engineering<br>3. Electrical and Computer Engineering and <br>4.Automotive Technology</p>
+        </div>
+          <div class="Course-outline">
+            <h3>Degree Level</h3>
+            <p>These are the Degree courses we Offer In the fields of Egineering and In the Tech Space<br>1. Mechanical Engineering.<br>2. Civil Engineering<br>3. Electrical and Computer Engineering and <br>4.Automotive Technology</p>
+        </div>
+          <div class="Course-outline">
+            <h3>Masters And Phd Levels</h3>
+            <p>These are the Post Graduate courses we Offer In the fields of Egineering and In the Tech Space<br>1. Mechanical Engineering.<br>2. Civil Engineering<br>3. Electrical and Computer Engineering and <br>4.Automotive Technology</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!----Campus---->
+
+    <section class="Campus">
+        <h1>This Is Our Main Campus In The World</h1>
+        <p>Let's See How Different Things work in Here.</p>
+
+        <div class="display">
+            <div class="HHA">
+                <h1>Student's school <span>ID</span>.</h1>
+                <p>Upon registration, The school will offer you an <br>ID that identifies you are a Student in this Institution. <br>It is important in Accessing different school assets <br>such as the Library</p>
+            </div>
+            <div>  
+                <img src="Student-ID-card-Front-1.jpg" class="JK">
+                <div class="KIM">
+                  <h3>Student's ID Card</h3>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Here are the spaces made available for us in the University.</h1>
+        <div class="read">
+            <div class="campus-col">
+                <img src="porter-raab-gnj9vj--FRY-unsplash.jpg" class="pk">
+                <div class="love">
+                   <h3>Campus Libaray</h3>
+                </div>
+            </div>    
+        </div>
+    </section>
+            
+        </div>
+    </section>
+<body>
+    
+</body>
+</html>
